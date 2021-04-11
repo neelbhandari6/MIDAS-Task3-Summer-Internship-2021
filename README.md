@@ -80,7 +80,7 @@ KNN Classifier: 0.94 accuracy
 Random Forest: 0.92 accuracy
 Stacking Classifier: Could not implement.
 
-LSTM using Keras Embedding: 0.95 Validation Accuracy
+LSTM using Keras Embedding: 0.96 Validation Accuracy
 
 <img width="643" alt="Screenshot 2021-04-11 at 10 21 10 PM" src="https://user-images.githubusercontent.com/30409992/114313454-3a052900-9b14-11eb-8dd2-a991b06ea271.png">
 
@@ -88,10 +88,15 @@ We also analysed the effect of Discount on Category prediction: 0.41 F1 Accuracy
 Given low correlation, we removed the discount column from further use.
 
 ### Models with Secondary Category
-TF-IDF and SVM: 0.87 F1 accuracy
-LSTM and Keras Embedding: 0.935 Validation accuracy
+TF-IDF :
+SVM: 0.97 F1 Score
+Multinomial Naive Bayes : 0.87
+KNN: 0.85
+Random Forest: 0.87
 
-<img width="650" alt="Screenshot 2021-04-11 at 10 23 06 PM" src="https://user-images.githubusercontent.com/30409992/114313529-7f295b00-9b14-11eb-9ae5-588e0b4d73c1.png">
+LSTM and Keras Embedding: 0.94 Validation accuracy
+
+<img width="576" alt="Screenshot 2021-04-11 at 11 22 42 PM" src="https://user-images.githubusercontent.com/30409992/114315487-d3383d80-9b1c-11eb-9d6d-4a6dd49d2519.png">
 
 ## Future Work:
 
